@@ -1,0 +1,18 @@
+p{font-family: Helvetica, Arial, sans-serif;
+line-height: 1.2em;}
+body{background-color:rgb(215, 226, 247);
+margin-left: 30px;
+margin-right: 20px;
+/*max-width: 1860;*/
+border: dotted 3px;
+padding: 1em;
+}
+/* text-allign: center; Use this when you want to center text*/
+li, p{font-family:arial;}
+h2{font-size: 1.7rem;}
+/*27px. use REM when changing font size for specific stuf*/
+/* EM is the font size times the number you want to multiply it by. 
+for ex on 12 px font, 2em = 24px*/
+
+/*p {line-height: 1.4em;} you can use EM for font size,
+ but depends on the element, as it can cause troubles*/
