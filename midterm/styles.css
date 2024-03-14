@@ -1,0 +1,70 @@
+
+*{margin: 0;
+    padding: 0;
+    border: 0;}
+
+
+p{font-size: 1.2rem;
+margin-bottom: 1em;
+color: aliceblue;}
+
+h1{color:aliceblue}
+
+h2{padding: 0.2em;}
+body{background-color: rgba(7, 37, 93, 0.769);}
+
+/* no-repeat*/
+#wrapper{
+    width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: em; 
+}
+
+header{
+    background: url("images/Steven_Universe_-_Title_Card\ 1.png") no-repeat top right/52%
+    padding:2em;
+}
+
+.bannertext{color:aliceblue;
+width: 30%;
+font-size: 1.2rem;}
+
+.btn{
+    display: block;
+    background-color:antiquewhite;
+    color: color( red green blue);
+    padding: 5px;
+    border-radius: 10px;
+    width: 5em;
+    text-align:center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+    /* navigation */
+nav{background-color: rgb(177, 177, 177);
+padding: 0.5em;
+}
+nav a{color: black;
+text-decoration: none;}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav li{display:inline;
+width:48%}
+/* navigation*/
+
+main{
+    padding: 2em;
+}
+.col-left{float: left;
+    width: 48%;}
+
+.col-right{float: right;
+width:48%}
+
+    footer{clear:both;
+    padding:2em}
