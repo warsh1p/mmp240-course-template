@@ -18,12 +18,12 @@ body{background-color: rgba(7, 37, 93, 0.769);}
     width:1200px;
     margin-left: auto;
     margin-right: auto;
-    padding: em; 
+    padding: 0em; 
 }
 
 header{
-    background: url("images/Steven_Universe_-_Title_Card\ 1.png") no-repeat top right/52%
-    padding:2em;
+    background: url("images/Stvn-Univrse.jpg") no-repeat center/100%;
+    padding: 8em;
 }
 
 .bannertext{color:aliceblue;
