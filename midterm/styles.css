@@ -15,7 +15,7 @@ body{background-color: rgba(7, 37, 93, 0.769);}
 
 /* no-repeat*/
 #wrapper{
-    width:1200px;
+    width:1730px;
     margin-left: auto;
     margin-right: auto;
     padding: 0em; 
@@ -23,7 +23,7 @@ body{background-color: rgba(7, 37, 93, 0.769);}
 
 header{
     background: url("images/Stvn-Univrse.jpg") no-repeat center/100%;
-    padding: 8em;
+    padding: 10em;
 }
 
 .bannertext{color:aliceblue;
@@ -32,8 +32,8 @@ font-size: 1.2rem;}
 
 .btn{
     display: block;
-    background-color:antiquewhite;
-    color: color( red green blue);
+    background-color:rgb(21, 51, 98);
+    color: color( rgb(173, 63, 63) rgb(131, 180, 131) rgb(255, 255, 255));
     padding: 5px;
     border-radius: 10px;
     width: 5em;
@@ -66,5 +66,7 @@ main{
 .col-right{float: right;
 width:48%}
 
+.flex-layout{display:flex;
+}
     footer{clear:both;
     padding:2em}
