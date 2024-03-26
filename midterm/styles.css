@@ -18,7 +18,7 @@ body{background-color: rgba(7, 37, 93, 0.769);}
 
 /* no-repeat*/
 #wrapper{
-    width:1730px;
+    max-width:100%;
     margin-left: auto;
     margin-right: auto;
     padding: 0em; 
@@ -70,7 +70,23 @@ main{
 .col-right{float: right;
 width:40%}
 
-.flex-layout{display:flex;
+.flex-layout{
+    display: grid;
+    max-width:100%;
+
+    padding: 0em;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.img-card{
+    margin:1em;
+    flex: 1 0 auto;
+    width:300px;
+    border-radius: 10%;
+}
+.flex-item{
+    border: 1px;
+    border-style:groove;
 }
 
 footer{clear:both;
