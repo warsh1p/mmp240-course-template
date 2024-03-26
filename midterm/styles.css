@@ -6,11 +6,14 @@
 
 p{font-size: 1.2rem;
 margin-bottom: 1em;
-color: aliceblue;}
+color: aliceblue;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
 
-h1{color:aliceblue}
+h1{color:aliceblue;
+font-family:Helvetica;}
 
-h2{padding: 0.2em;}
+h2{padding: 0.2em;
+font-family: Helvetica, sans-serif;}
 body{background-color: rgba(7, 37, 93, 0.769);}
 
 /* no-repeat*/
@@ -35,6 +38,7 @@ font-size: 1.2rem;}
     background-color:rgb(21, 51, 98);
     color: color( rgb(173, 63, 63) rgb(131, 180, 131) rgb(255, 255, 255));
     padding: 5px;
+    font-family:Helvetica;
     border-radius: 10px;
     width: 5em;
     text-align:center;
@@ -61,12 +65,13 @@ main{
     padding: 2em;
 }
 .col-left{float: left;
-    width: 48%;}
+    width: 40%;}
 
 .col-right{float: right;
-width:48%}
+width:40%}
 
 .flex-layout{display:flex;
 }
-    footer{clear:both;
+
+footer{clear:both;
     padding:2em}
