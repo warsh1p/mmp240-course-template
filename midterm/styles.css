@@ -7,7 +7,7 @@
 p{font-size: 1.2rem;
 margin-bottom: 1em;
 color: aliceblue;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 h1{color:aliceblue;
 font-family:Helvetica;}
@@ -26,7 +26,8 @@ body{background-color: rgba(7, 37, 93, 0.769);}
 
 header{
     background: url("images/Stvn-Univrse.jpg") no-repeat center/100%;
-    padding: 10em;
+    padding-bottom:  10em;
+    padding-top: 10em;
 }
 
 .bannertext{color:aliceblue;
@@ -47,18 +48,21 @@ font-size: 1.2rem;}
     margin-left: 20px;
 }
     /* navigation */
-nav{background-color: rgb(177, 177, 177);
+nav{background-color: rgb(123, 149, 180);
 padding: 0.5em;
 }
 nav a{color: black;
-text-decoration: none;}
+text-decoration: none;
+font-size: 20px;
+font-family:'Times New Roman', Times, serif;
+padding-right: 1.1em;}
 
 nav a:hover{
     text-decoration: underline;
 }
 
 nav li{display:inline;
-width:48%}
+width:48%;}
 /* navigation*/
 
 main{
@@ -68,26 +72,32 @@ main{
     width: 40%;}
 
 .col-right{float: right;
-width:40%}
+width:40%;}
 
 .flex-layout{
-    display: grid;
-    max-width:100%;
-
-    padding: 0em;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    flex: flex-grow;
+    flex-direction: column;
+flex-wrap: wrap;
+   width: 240px;
 }
 
 .img-card{
-    margin:1em;
     flex: 1 0 auto;
     width:300px;
     border-radius: 10%;
 }
 .flex-item{
-    border: 1px;
-    border-style:groove;
+    flex: 1 0 0;
+    border-radius: 10%; 
+    margin: 0.2em;
+
 }
 
 footer{clear:both;
-    padding:2em}
+    background-color:antiquewhite;
+    padding:2em;}
+
+    @media(max-width:1044px){
+        .col-left, .col-right
+    }
