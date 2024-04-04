@@ -6,20 +6,53 @@
     <title>Document</title>
 </head>
 <body>
+<div class="container">
+
     <div class="grid-one">
         <p> jijdo</p>
     </div>
-
+    <div class="grid-two">
+        <p> sample</p>
+    </div>
+    <div class="grid-three">
+        <p> sample again</p>
+    </div>
 <style>
-grid-one{display: grid;
-background-color:rgb(0, 0, 0);
-
-
-
+.container{display: grid;
+padding: 2em;
+grid-template-columns: repeat(auto-fill, 300px);
+grid-gap: 1em;
 }
 
+.grid-one{
+    padding: 2em;
+    background-color:beige;  
+}
 
+.grid-two{
+    background-color:brown;
+    padding: 2em;
+}
 
+.grid-three{
+    background-color:aquamarine;
+    padding: 2em;
+}
 </style>
+<form action="">
+    <input type="search">
+</form>
+
+<form action="">
+    <input type="date">
+</form>
+
+<form action="#" method="post">
+    <label for="search"> Search Program</label><br>
+   <input type="search" value="search">
+    <input type="submit" value="go">
+</form>
+<!-- use <button> inside form ONLY!!!-->
+</form>
 </body>
 </html>

@@ -64,14 +64,14 @@ text-decoration: none;
 font-size: 20px;
 font-family:'Times New Roman', Times, serif;
 padding-right: 0em;
-margin-left: 20px}
+margin-left: 20px;}
 
 nav a:hover{
     text-decoration: underline;
 }
 
-nav li{display:inline;
-width:48%;}
+nav li{display: inline;
+width: 48%;}
 /* navigation*/
 
 main{
@@ -90,7 +90,7 @@ width:40%;}
 
 .img-card{
     flex: 1 0 auto;
-    width:300px;
+    width: 300px;
     border-radius: 10%;}
 
 .flex-item{
@@ -100,11 +100,11 @@ width:40%;}
 
 footer{clear:both;
     background-color:rgb(48, 61, 80);
-    padding:0.6em;}
+    padding: 0.6em;}
 
 footer p{
     font-size: 1em;
-    font-weight:bold;
+    font-weight: bold;
     color:rgb(238, 238, 238);}
 
 
