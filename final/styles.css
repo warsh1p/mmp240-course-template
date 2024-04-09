@@ -1,4 +1,9 @@
 *{margin: 0;
     padding: 0;
     border: 0;}
-    
+.flex-container{display: flex;
+justify-content: space-between;}
+
+.top-menu{
+    display: none;
+}
