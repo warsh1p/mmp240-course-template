@@ -1,9 +1,37 @@
 *{margin: 0;
     padding: 0;
     border: 0;}
-.flex-container{display: flex;
-justify-content: space-between;}
+/* .flex-container{display: flex;
+justify-content: space-between;} */
 
 .top-menu{
-    display: none;
+    /* display: none; */
+    padding: 0.5em;
+    border: solid 1px black;
+    background-color: white;
+    clear:right;
+}
+h2 style{
+    clear: right;
+}
+
+.top-menu ul{
+    list-style-type: none;
+}
+body{font-family:sans-serif;}
+h1{font-size: 1.5em;
+    line-height: 1em;
+}
+.larger-text{
+    font-size:larger;
+}
+.img-responsive{
+    width: 100%;
+}
+input{
+    border: solid 1px black;
+    padding: 0.2em;
+}
+.float-right{
+    float:right;
 }
