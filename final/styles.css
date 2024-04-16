@@ -5,7 +5,7 @@
 justify-content: space-between;} */
 
 .top-menu{
-    /* display: none; */
+     display: none; 
     padding: 0.5em;
     border: solid 1px black;
     background-color: white;
@@ -21,6 +21,30 @@ h2 style{
 body{font-family:sans-serif;}
 h1{font-size: 1.5em;
     line-height: 1em;
+}
+li.dropdown{
+    border-bottom: solid 1px black;
+}
+.dropdown ul{
+    display: none;
+}
+li.dropdown:hover ul{
+    display: block;
+}
+.dropdown a{
+    display: block;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    background-color:aquamarine;
+    
+}
+.dropdown li a{
+    color:rgb(95, 86, 86);
+    background-color:bisque;
+}
+.dropdown li a:hover{
+    background-color: rgb(202, 202, 202);
 }
 .larger-text{
     font-size:larger;
