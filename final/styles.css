@@ -15,12 +15,12 @@ h2 style{
     clear: right;
 }
 .banner{
-    background-image: url(images/gangsta-spongbob.png);
-    text-decoration: none;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    border-image-repeat: no-repeat;
+    max-width: 100%;
     margin: 2em 0;
 }
+
+
 .bannert{
     background-image: url(images/open_house_2023.webp);
     text-decoration: none;
@@ -87,6 +87,15 @@ input{
 .float-right{
     float:right;
 }
+.flex-item{
+    flex: 1 0 0;
+    border-radius: 10%; 
+    margin: 0.2em;}
+.img-card{
+flex: 1 0 auto;
+width: 300px;
+border-radius: 10%;}
+
 /* Media Query*/
 @media (min-width:760px){
 .program-nav ul{display:flex;
