@@ -15,12 +15,20 @@ h2 style{
     clear: right;
 }
 .banner{
+    background-image: url(images/gangsta-spongbob.png);
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 2em 0;
+}
+.bannert{
     background-image: url(images/open_house_2023.webp);
     text-decoration: none;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     margin: 2em 0;
 }
+
 p h1 h2 h3 h4{
     margin-bottom: 2em;
 }
