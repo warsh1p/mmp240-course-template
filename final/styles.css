@@ -3,9 +3,9 @@
     border: 0;}
 
 #wrapper{
-    margin-left: 1em;
-    max-width: 98%;
+max-width: 100%;
 justify-content: center;
+overflow:visible;
 }
 .flex-container{display: flex;
 justify-content: space-between;}
@@ -62,11 +62,14 @@ h1{font-size: 1.5em;
 }
 li.dropdown{
     border-bottom: solid 1px black;
+    text-decoration: none;
+    list-style-type: none;
 }
 .dropdown ul{
     display: none;
 }
 li.dropdown:hover ul{
+    list-style-type: none;
     display: block;
 }
 .dropdown a{
@@ -90,6 +93,20 @@ li.dropdown:hover ul{
 .img-responsive{
     width: 100%;
 }
+.branch-site-header{background-color: #0033A1;
+min-height: 60px;
+justify-content: center;
+align-items: center;
+position:relative;
+color:aliceblue;
+}
+
+.branch-site-header nav a{font-family: 'helvetica';
+    font-weight: bold;
+    font-size: 2.3em;
+color:rgb(226, 231, 236);
+margin-left: 0.1em;
+}
 input{
     border: solid 1px black;
     padding: 0.2em;
@@ -99,7 +116,7 @@ input{
 }
 .flex-containoor{
     display: grid;
-    grid-template-columns: repeat( 2, 240px [col-start]);
+    grid-template-columns: repeat( 2, 200px [col-start]);
    width: 240px;
     margin:1em;
     max-width: 100%;
@@ -110,7 +127,7 @@ input{
     flex: 1 0 0;
     border-radius: 10%; 
     margin: 0.2em;
-    max-width: 200px;
+    max-width: 260px;
     background-color: transparent;
    transition-property: background-color, box-shadow, transform;
    transition-duration: 0.25s
@@ -128,18 +145,28 @@ border-radius: 10%;}
 a{text-decoration: none;
 color:black}
 
+body{
+    min-height: 100vh;
+    display:flex;
+    flex-direction:column;
+}
 footer{
-    margin-top: 3em;
+    margin-top: auto;
 display:flex;
 flex-direction:column;
 min-height: 75px;
- position:relative;
+ /*position:absolute;
+ bottom: 0;
+ left: 0;
+ z-index: 10;*/
  width: 100%;
- bottom:0;
-background-color: aquamarine;
+background-color: rgb(112, 112, 112);
+color:azure;
 justify-content: space-around;
 overflow: visible;
 }
+
+
 /* Media Query*/
 @media (min-width:760px){
 .program-nav ul{display:flex;
@@ -150,6 +177,16 @@ justify-content: space-between;}
 }
 .program-nav li li{
     width:100%;*/
+.flex-item{
+    flex: 1 0 0;
+    width:260px;
+    margin: 0.2em;
+}
+.img-card{
+    flex: 1 0 auto;
+    width: 260px;
+
+}
 .dropdown{
     position: relative;
     width: 30%;
@@ -175,8 +212,8 @@ grid-gap: 2em;}
 .flex-containoor{
     display: grid;
     grid-template-columns: repeat( 6, 280px [col-start]);
-   width: 240px;
-    margin:1em;
+   width: 260px;
+    margin: 0em;
     max-width: 100%;
     justify-content:flex-start;   
 }
@@ -188,6 +225,6 @@ grid-gap: 2em;}
 }
 
 header nav{
-    position: relative;
+   
 }
 }
